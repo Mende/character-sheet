@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.image-bg {
+    background-image: url(../public/landscape.png);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    opacity: 0.3;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+}
